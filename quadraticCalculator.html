@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title> Quadratic Calculator </title>
+    <script src="quadraticFormula.js"> </script>
+  </head>
+
+
+  <body>
+    <h1> Sebastian's Quadratic Calculator </h1>
+    <form name="quadraticSubmit" id='quadraticID' onsubmit="return false;" method="post">
+      <label for='a-Value'> A-Value:</label> <br>
+      <input type='text' id='a-Value' name = "a-Value"> <br>
+      <label for='b-Value'> B-Value:</label> <br>
+      <input type='text' id='b-Value' name = "b-Value"> <br>
+      <label for='c-Value'> C-Value:</label> <br>
+      <input type='text' id='c-Value' name = "c-Value"> <br><br>
+      <input type='submit' value= 'Submit' onclick='quadraticFormula()'>
+    </form>
+
+    <div>
+      <h2 id='answer'>Your answers are...<h2>
+    </div>
+  </body>
+</html>
